@@ -1,0 +1,7 @@
+{
+    "name": "MoreMusicMod",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/georgebjork/LC-MoreMusicMod",
+    "description": "Adds the ability to play custom music from the Boombox",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}
