@@ -26,6 +26,8 @@ public class AudioLoaderService : BaseService
     // Should we use default songs or not.
     public static bool UseDefaultSongs => IsLoaded == false && _songs_at_directory.Length <= 0;
 
+    public static int ClipsLength => _clips.Count; 
+
     
 
     public static void LoadAllSongs()
