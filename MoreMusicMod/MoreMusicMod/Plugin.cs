@@ -13,7 +13,7 @@ namespace MoreMusicMod
         
         private const string Guid = "georgebjork.MoreMusicMod";
         private const string Name = "MoreMusicMod";
-        private const string Version = "1.0.1";
+        private const string Version = "1.0.2";
         
         private static Plugin _instance;
         
