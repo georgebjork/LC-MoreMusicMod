@@ -16,6 +16,9 @@ public class BaseService : MonoBehaviour
     // Here for any service that needs to access the music directory
     protected static readonly string _music_directory = Path.Combine(Paths.BepInExRootPath, Settings.PLUGINS_DIRECTORY, Settings.SONGS_FOLDER);
     
+    // Plugins directory
+    protected static readonly string _plugins_directory = Path.Combine(Paths.BepInExRootPath, Settings.PLUGINS_DIRECTORY);
+    
     // Current coroutines
     private static readonly List<Coroutine> _active_coroutines = new();
     
